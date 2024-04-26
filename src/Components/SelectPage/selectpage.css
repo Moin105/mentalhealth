@@ -33,4 +33,45 @@
   font-size: 24px;
   margin: 20px 0;
   color: white;
+}
+
+@media only screen and (max-width: 768px) {
+  .page-select {
+    display: flex;
+    height: 100% !important;
+    flex-direction: column;
+    gap: 20px;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 0%, rgb(112, 21, 203) 0%, rgb(30, 140, 189) 100%);
+  }
+  .page-select h2 {
+    font-size: 36px;
+    margin: 60px 0px 50px 0px;
+    color: white;
+  }
+  .page-select .container {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+  .page-select .container .box {
+    width: 100%;
+    padding: 0px;
+    border-radius: 8px;
+  }
+  .page-select .container .box img {
+    background-color: black;
+    width: 350px;
+    height: 350px;
+    margin: 0;
+  }
+  .page-select .container .box h3 {
+    font-size: 24px;
+    margin: 20px 0;
+    color: white;
+  }
 }/*# sourceMappingURL=selectpage.css.map */
