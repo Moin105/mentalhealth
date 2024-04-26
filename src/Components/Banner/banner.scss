@@ -1,0 +1,48 @@
+.banner {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  gap: 20px;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(112, 21, 203, 1) 0%,
+    rgba(30, 140, 189, 1) 100%
+  );
+
+  .banner-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    padding: 50px 0px;
+    figure{
+        width: 70%;
+        height: 70%;
+        background-color: black;
+    }
+
+  }
+  .banner-left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50%;
+    justify-content: center;
+    padding: 50px 0px;
+    h2{
+        text-align: left;
+      font-size: 42px;
+      margin: 0;
+      color: white;
+    }
+    p{
+        font-size: 18px;
+        max-width: 80%;
+        color: white;
+        text-align: left;
+    }
+  }
+}
