@@ -1,10 +1,13 @@
 import React from "react";
+import ThreeDGraph from "../Animation/ThreeDgraph";
 import './banner.css'
 function Banner() {
   return (
     <div className="banner">
       <div className="banner-right">
-             <figure></figure>
+             <figure>
+             <ThreeDGraph/>
+             </figure>
 
 
       </div>
